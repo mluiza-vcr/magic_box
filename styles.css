@@ -90,3 +90,29 @@ h1 {
   line-height: 26px;
   color: #333333;
 }
+
+#retangulo {
+  position: absolute;
+  width: 45px;
+  height: 4px;
+  left: 170px;
+  top: 130px;
+  background: #266AA6;
+}
+
+#myTable {
+  position: absolute;
+  width: 940px;
+  height: 236px;
+  left: 170px;
+  top: 155px;
+}
+
+/* #myTable > thead {
+  position: absolute;
+  width: 940px;
+  height: 51px;
+  left: 170px;
+  top: 155px;
+  background: #266AA6;
+} */
