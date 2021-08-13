@@ -1,0 +1,92 @@
+body {
+  position: relative;
+  width: 1280px;
+  height: 1024px;
+  background: #F1F1F1;
+}
+
+#menu {
+  width: 1400px;
+  height: 57px;
+  left: 0px;
+  top: 0px;
+  background: #266AA6;
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+}
+
+.topnav {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  position: absolute;
+  width: 293px;
+  height: 21px;
+  right: 32px;
+  bottom: 985px;
+}
+
+#logo {
+position: absolute;
+width: 85px;
+height: 21px;
+left: 59px;
+top: 18px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+color: #FFFFFF;
+}
+
+#nav-home, #nav-contato {
+  position: static;
+  width: 49px;
+  height: 21px;
+  right: 244px;
+  top: 0px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 32px;
+}
+
+#nav-pedidos {
+  position: static;
+  width: 116px;
+  height: 21px;
+  right: 96px;
+  top: 0px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  color: #F2B450;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 32px;
+}
+
+h1 {
+  position: absolute;
+  width: 140px;
+  height: 26px;
+  left: 170px;
+  top: 89px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 26px;
+  color: #333333;
+}
