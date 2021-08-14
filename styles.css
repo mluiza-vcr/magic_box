@@ -102,9 +102,36 @@ h1 {
 
 #myTable {
   position: absolute;
-  width: 940px;
+  width: 950px;
   height: 236px;
   left: 170px;
   top: 155px;
-  max-height: 500px;
 }
+
+#myTable > thead {
+  background: #266AA6;
+  height: 50px;
+  color: white;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+}
+
+tbody > tr:nth-child(even) {
+  background: #FFF;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+tbody> tr:nth-child(odd) {
+  background: #DDDDDD;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+}
+
