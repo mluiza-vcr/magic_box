@@ -106,13 +106,5 @@ h1 {
   height: 236px;
   left: 170px;
   top: 155px;
+  max-height: 500px;
 }
-
-/* #myTable > thead {
-  position: absolute;
-  width: 940px;
-  height: 51px;
-  left: 170px;
-  top: 155px;
-  background: #266AA6;
-} */
