@@ -6,7 +6,7 @@ body {
 }
 
 #menu {
-  width: 1400px;
+  width: 1280px;
   height: 57px;
   left: 0px;
   top: 0px;
@@ -23,7 +23,7 @@ body {
   position: absolute;
   width: 293px;
   height: 21px;
-  right: 32px;
+  right: 90px;
   bottom: 985px;
 }
 
@@ -102,10 +102,11 @@ h1 {
 
 #myTable {
   position: absolute;
-  width: 950px;
-  height: 236px;
   left: 170px;
   top: 155px;
+  height: 250px; 
+  overflow-y:scroll;
+  display: block;
 }
 
 #myTable > thead {
